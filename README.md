@@ -1,6 +1,8 @@
 # tiny_rack
 tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack modular synthesizers.
 
+[2x44hp eurorack][main image] 
+
 Main features:
 
 * One-piece 3D printed enclosure, no splicing, no need for any other accessories.
@@ -70,3 +72,8 @@ testing...
 
 ## License
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
+
+
+
+
+[main image]: images/main.jpg
