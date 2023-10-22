@@ -1,7 +1,9 @@
 # tiny_rack
 tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack modular synthesizers.
 
-[2x44hp eurorack][main image] 
+
+![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/0b2d38c4e54fa3bad7a3f4de5a57aabbf00c15f2/images/main.jpg)
+
 
 Main features:
 
@@ -72,8 +74,3 @@ testing...
 
 ## License
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
-
-
-
-
-[main image]: images/main.jpg
