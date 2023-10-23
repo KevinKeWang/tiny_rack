@@ -24,8 +24,7 @@ tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack m
 | tiny-workbench-34hp | 50mm               | 50mm              | 34hp, for modular testing           |
 | tiny-rack-2x44hp    | 55mm               | 65mm              | 2x44hp, more inner space for DIY    |
 
-
-## Build instructions
+## Instructions
 The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modules. Most of the solutions required specialized rails. needed to control the precision otherwise the modules would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
 
 I spent a lot of time looking for a balance between easy to build and quality. This series contains the complete series of racks. and a power board with a decent quality of output. The racks is built entirely using 3D printing. one piece (including the rails) and simple to print. the screw holes are not threaded and need to be force screwed in using M3 screws to create the threads. this sacrifices the strength of the racks somewhat. but again makes the build very simple and ready to use straight after printing. All sizes of the racks are covered in 4CM x 4CM screw holes on the bottom and are compatible with all the PCBs in the project. so there is no need to change the power supply board if you need to change case sizes.
@@ -34,6 +33,8 @@ For the power supply. I tested several DC-DC isolation regulators and chose the 
 
 The power supply uses the original 7812/7912 LDO scheme. which is simple and reliable. and I've tested the ripple on the +/-12V rails to under 100mV under all load conditions. You can check the separate test report. it's not a perfect solution at the moment. but you can know exactly what kind of standards it can achieve.
 Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a custom heatsink with a hole spacing of 32mm x 32mm. heat sinks provide lower height to allow the box to accommodate deeper modules.
+
+**In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.Possibly improved later.**
 
 ## Schematics and PCB
 [All the PCB design files here](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
@@ -73,15 +74,35 @@ Regarding the heatsink. I designed two options. One is a standard component with
 | Adapter                    |                    |               |                   |                                      |           |                                                                                                                                                                             |
 | 15V Adapter                | 15V Adapter        |               | GST60A15-P1J      | 709-GSM36B15-P1J **or** 709-GST60A15-P1J | -         | "15V DC Adapter (choose one): MEANWELL GSM36B15-P1J (15V 36W) for +12V 1500mA,-12V 400mA or MEANWELL GST60A15-P1J (15V 60W) for +12V 1500mA,-12V 1500mA, +5V 3500mA/6500mA" |
 
-
-## Links
-editing...
-
 ## Mechanical assembly
 
 
 ## Test Report
-testing...
+Test equipment:
+* Gwinstek GPP-3323 DC Power Supply (Used as an electronic load) **for +12V -12V**
+* Itech IT8500G+ DC Electronic Load **for +5V**
+* Rigol MSO5000 Oscilloscopes **for ripple measurement**
+* Software for automated testing
+Test methods:
+Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all combinations of loads and output a CSV file.
+
+Test result (use SKMW06F-15):
+| Output      | Maximum load          | Maximum ripple    |
+|-------------|-----------------------|-------------------|
+| +12V        | 1500mA                | 80mV              |
+| -12V        | 400mA                 | 80mV              |
+| +5V         | 6500mA                | untested          |
+| +3.3V       | 500mA                 | untested          |
+
+*Ripple measurements for all specific load cases can be seen here:*
+[test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
 
 ## License
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
+
+## Links
+Official website(there's not really anything.): https://biti.tech/
+
+Youtube: https://www.youtube.com/@KEVIN_KE
+
+Bilibili: https://space.bilibili.com/319608785
