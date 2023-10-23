@@ -35,7 +35,7 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a custom heatsink with a hole spacing of 32mm x 32mm. heat sinks provide lower height to allow the box to accommodate deeper modules.
 
 ## Schematics and PCB
-![pcb](https://github.com/KevinKeWang/tiny_rack/blob/024e8f9eede1731acdfd60a8e565c7b0a6ac1751/power%20pcb/tiny-psu-main/smt.png)
+![pcb](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
 
 ## Bill of materials
 | Designator                 | Value              | Footprint     | Description       | Ref. Mouser                          | Ref. LCSC | References                                                                                                                                                                  |
