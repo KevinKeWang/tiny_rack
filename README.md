@@ -10,8 +10,7 @@ tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack m
 * Optional +3.3V 500mA for easy project prototyping.
 * Fully load tested.
 * The +12V and -12V output ripple is less than 100mV under all load conditions.
-* Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be 
-*  directly.
+* Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be directly.
 
 ## Type of rack
 | Rack                | Min depth          | Max depth         | Description                         |
