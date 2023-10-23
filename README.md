@@ -111,6 +111,8 @@ Test equipment:
 Test methods:
 Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all combinations of loads and output a CSV file.
 
+**There are some power supply solutions that can generate large ripple or even fail in specific load scenarios, such as when the gap between positive and negative rail loads is too large. That's why my tests cover all load scenarios.**
+
 ![test_workflow](https://github.com/KevinKeWang/tiny_rack/blob/f1acfb4a67a3ef867dcafc481e8d05a54906aa7b/images/test_workflow.jpg)
 
 Test result (use SKMW06F-15):
