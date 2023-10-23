@@ -88,7 +88,7 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 ## Mechanical assembly
 
-**use regulated heat sink:**
+**use regular heat sink:**
 
 ![use_regulated_heat_sink](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/pcb-a.jpg)
 
