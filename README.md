@@ -5,10 +5,10 @@ tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack m
 
 ## Main features:
 
-* One-piece 3D printed enclosure, no splicing, no need for any other accessories.
-* Maximum supported current: +12V 1500mA, -12V 1500mA, +5V 6500mA.
+* One-piece 3D printed, no splicing, no metal rails required.
+* Maximum current: +12V 1500mA, -12V 1500mA, +5V 6500mA.
 * Optional +3.3V 500mA for easy project prototyping.
-* Fully load tested.
+* Full load tested.
 * The +12V and -12V output ripple is less than 100mV under all load conditions.
 * Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be directly.
 
@@ -32,8 +32,8 @@ It took me some time to find the balance between ease of production and quality.
 
 For the power supply. I tested several DC-DC isolation regulators and chose the model with the better output. the +12V rail provides 1500mA current output; the -12V rail can provide 1500mA or 400mA depending on the component selection. 5V rail is optional and can provide 3500mA or 6000A power output. which is perfectly adequate for the Raspberry Pi as well. Finally I have designed an optional 3.3V output pin. which is useful for DIY. if you have some project prototypes that need to use 3.3V this will give you some convenience.
 
-The power supply uses the original 7812/7912 LDO scheme. which is simple and reliable. and I've tested the ripple on the +/-12V rails to under 100mV under all load conditions. You can check the separate test report. it's not a perfect solution at the moment. but you can know exactly what kind of standards it can achieve.
-Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a custom heatsink with a hole spacing of 32mm x 32mm. heat sinks provide lower height to allow the box to accommodate deeper modules.
+The power supply uses the original 7812/7912 LDO scheme. which is simple and reliable. and I've tested the ripple on the +/-12V rails to under 100mV under all load conditions. You can check the test report. it's not a perfect solution at the moment. but you can see exactly what kind of standards it can achieve.
+Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a customized heatsink with a hole spacing of 32mm x 32mm. with customized heat sink the height of power board can be much lower. 
 
 **In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.Possibly improved later.**
 
@@ -92,11 +92,11 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 ![use_regulated_heat_sink](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/pcb-a.jpg)
 
-**use custom heat sink:**
+**use customized heat sinks:**
 
 ![use_custom_heat_sink](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/pcb-b.jpg)
 
-**how to mount:**
+**mounting guide:**
 
 ![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/mount-a.jpg)
 
@@ -104,7 +104,7 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 ## Test Report
 Test equipment:
-* Gwinstek GPP-3323 DC Power Supply (Used as an electronic load) **for +12V -12V**
+* Gwinstek GPP-3323 DC Power Supply (as an electronic load) **for +12V -12V**
 * Itech IT8500G+ DC Electronic Load **for +5V**
 * Rigol MSO5000 Oscilloscopes **for ripple measurement**
 * Software for automated testing
