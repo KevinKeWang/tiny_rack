@@ -1,7 +1,7 @@
 # tiny_rack
 tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack modular synthesizers. 
 
-![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/0b2d38c4e54fa3bad7a3f4de5a57aabbf00c15f2/images/main.jpg)
+![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/c55b5a3d3618ce2e561cd8bb03879904c883bc02/images/main.jpg)
 
 ## Main features:
 
