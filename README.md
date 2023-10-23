@@ -42,7 +42,7 @@ Regarding the heatsink. I designed two options. One is a standard component with
 ## Bill of materials
 | Designator                                                                                                                                    | Qty | Value              | Footprint     | Description                    | Ref. Mouser                          | Ref. LCSC | References                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-----|--------------------|---------------|--------------------------------|--------------------------------------|-----------|---------------------------------------|
-| SMT parts                                                                                                    |
+SMT parts
 | LED1, LED2, LED3, LED4                                                                                                                        | 4   | LED                | 0805          | LED                            | 638-1215UYCS530A28                   | C2987021  | EVERLIGHT 17-215/GHC-YP1Q2B16Y/3T     |
 | R3                                                                                                                                            | 1   | 1.2k               | 0805          | Resistor                       | 667-ERJ-6ENF1201V                    | C17379    | UNI-ROYAL 0805W8F1201T5E              |
 | R1, R2, R4                                                                                                                                    | 3   | 2.4k               | 0805          | Resistor                       | 667-ERJ-6ENF2401V                    | C17526    | UNI-ROYAL 0805W8F2401T5E              |
@@ -56,7 +56,7 @@ Regarding the heatsink. I designed two options. One is a standard component with
 | C15                                                                                                                                           | 1   | 100nF              | 0402          | Ceramic (Optional for 3.3V)    | 187-CL05B104KB54PNC                  | C307331   | SAMSUNG CL05B104KB54PNC               |
 | C3, C17, C19                                                                                                                                  | 3   | 22uF               | 1206          | Ceramic (Optional for 3.3V)    | 187-CL31A226KAHNNNE                  | C12891    | SAMSUNG CL31A226KAHNNNE               |
 | L3                                                                                                                                            | 1   | 33uH               | 0805          | Inductor (Optional for 3.3V)   | 810-MLZ2012M330WT000                 | C383405   | TDK MLZ2012M330WT000                  |
-| PTH parts               |
+PTH parts
 | C2, C6                                                                                                                                        | 2   | 22uF               | D6.3xL7mm     | Electrolytic                   | 647-UKL1V220KEDANA                   | C433313   | Nichicon USV1V220MFD                  |
 | C1                                                                                                                                            | 1   | 120uF              | D8xL7mm       | Electrolytic                   | 667-50SEK120M                        | C3010233  | PANASONIC 50SEK120M                   |
 | IC3                                                                                                                                           | 1   | 7812               | TO-220        | LDO                            | 511-L7812CV-DG                       | C2914     | ST L7812CV-DG                         |
@@ -70,18 +70,17 @@ Regarding the heatsink. I designed two options. One is a standard component with
 | J3                                                                                                                                            | 1   | 2x3 header         | 2.54mm pitch  | 2x3 header (Optional for 3.3V) | 710-61300621121                      | C358692   | 2x3 male header, 2.54mm pitch         |
 | J2, J6, J8, J9, J10, J11                                                                                                                      | 6   | M3 screw terminal  |               | terminal (Optional)            | 534-7770                             | C481448   | Keystone 7770                         |
 | X1, X7                                                                                                                                        | 2   | 2x8 header         | 2.54mm pitch  | 2x8 header                     | 710-61201621621                      | C429960   | 2x8 male header, 2.54mm pitch         |
-| Hardware Mount         |
+Hardware Mount
 | flathead screw                                                                                                                                | 4   | M2.5 x 20mm        |               |                                |                                      |           | for pcb mount                         |
 | hex nylon nuts                                                                                                                                | 4   | M2.5 x 8mm         |               |                                |                                      |           | for pcb mount                         |
 | mounting screws                                                                                                                               | 4   | M3 x 10mm + 6mm    |               |  (Optional for heat sink)      |                                      |           | for heat sink mount                   |
 | spring                                                                                                                                        | 4   | 7mm x 5mm          |               |  (Optional for heat sink)      |                                      |           | for heat sink mount                   |
-| Adapter         |
+Adapter
 | 15V Adapter                                                                                                                                   | 1   | 15V Adapter        |               | GST60A15-P1J                   | 709-GSM36B15-P1J **or** 709-GST60A15-P1J | -         | MEANWELL 15V DC Adapter               |
-|          |
-| IC1: isolated dc-dc regulated converter (choose one) :  MEANWELL SKMW06F-15 (support -12V 400mA) or MEANWELL SKMW30F-15 (support -12V 1500mA)   |
-| Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing or 42x25x25mm Standard heat sinks                              |
-| 15V DC Adapter (choose one): MEANWELL GSM36B15-P1J (15V 36W) for 12V 400mA or MEANWELL GST60A15-P1J (15V 60W) for -12V 1500mA                   |
-| **In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.Possibly improved later.**       |
+IC1: isolated dc-dc regulated converter (choose one) :  MEANWELL SKMW06F-15 (support -12V 400mA) or MEANWELL SKMW30F-15 (support -12V 1500mA)
+Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing or 42x25x25mm Standard heat sinks
+15V DC Adapter (choose one): MEANWELL GSM36B15-P1J (15V 36W) for 12V 400mA or MEANWELL GST60A15-P1J (15V 60W) for -12V 1500mA
+**In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.Possibly improved later.**
 
 ## Mechanical assembly
 
