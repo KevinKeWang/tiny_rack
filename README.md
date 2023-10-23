@@ -1,11 +1,9 @@
 # tiny_rack
 tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack modular synthesizers. 
 
-
 ![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/0b2d38c4e54fa3bad7a3f4de5a57aabbf00c15f2/images/main.jpg)
 
-
-Main features:
+## Main features:
 
 * One-piece 3D printed enclosure, no splicing, no need for any other accessories.
 * Maximum supported current: +12V 1500mA, -12V 1500mA, +5V 6500mA.
@@ -13,6 +11,17 @@ Main features:
 * Fully load tested.
 * The +12V and -12V output ripple is less than 100mV under all load conditions.
 * Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be connected directly.
+
+## Type of rack
+| Rack                | Min depth          | Max depth         | Description                         |
+|---------------------|--------------------|-------------------|-------------------------------------|
+| tiny-box-18hp       | 28mm               | 50mm              | 18hp                                |
+| tiny-box-26hp       | 28mm               | 50mm              | 26hp                                |
+| tiny-box-34hp       | 28mm               | 50mm              | 34hp                                |
+| tiny-box-42hp       | 28mm               | 50mm              | 42hp                                |
+| tiny-cube-26hp      | 78mm               | 100mm             | 26hp, ultra deep                    |
+| tiny-workbench-34hp | 50mm               | 50mm              | 34hp, for modular testing           |
+| tiny-rack-2x44hp    | 55mm               | 65mm              | 2x44hp, more inner space for DIY    |
 
 
 ## Build instructions
@@ -26,7 +35,7 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a custom heatsink with a hole spacing of 32mm x 32mm. heat sinks provide lower height to allow the box to accommodate deeper modules.
 
 ## Schematics and PCB
-
+![pcb](https://github.com/KevinKeWang/tiny_rack/blob/024e8f9eede1731acdfd60a8e565c7b0a6ac1751/power%20pcb/tiny-psu-main/smt.png)
 
 ## Bill of materials
 | Designator                 | Value              | Footprint     | Description       | Ref. Mouser                          | Ref. LCSC | References                                                                                                                                                                  |
