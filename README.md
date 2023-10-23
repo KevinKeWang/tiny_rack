@@ -105,13 +105,12 @@ Test result (use SKMW06F-15):
 | +3.3V       | 500mA                 | untested          |
 
 *Ripple measurements for all specific load cases can be seen here:*
-[test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
+[test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/fdd56a02470fdd53be4d23742275717104c09da4/test%20report "Test Report")
 
 ## License
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
 
 ## Links
-Official website(there's not really anything.): https://biti.tech/
 
 Youtube: https://www.youtube.com/@KEVIN_KE
 
