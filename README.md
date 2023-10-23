@@ -10,7 +10,8 @@ tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack m
 * Optional +3.3V 500mA for easy project prototyping.
 * Fully load tested.
 * The +12V and -12V output ripple is less than 100mV under all load conditions.
-* Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be connected directly.
+* Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be 
+*  directly.
 
 ## Type of rack
 | Rack                | Min depth          | Max depth         | Description                         |
@@ -35,6 +36,7 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a custom heatsink with a hole spacing of 32mm x 32mm. heat sinks provide lower height to allow the box to accommodate deeper modules.
 
 ## Schematics and PCB
+[All the PCB design files here](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
 ![pcb](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
 
 ## Bill of materials
