@@ -77,6 +77,7 @@ Hardware Mount
 | spring                                                                                                                                        | 4   | 7mm x 5mm          |               |  (Optional for heat sink)      |                                      |           | for heat sink mount                   |
 Adapter
 | 15V Adapter                                                                                                                                   | 1   | 15V Adapter        |               | GST60A15-P1J                   | 709-GSM36B15-P1J **or** 709-GST60A15-P1J | -         | MEANWELL 15V DC Adapter               |
+
 IC1: isolated dc-dc regulated converter (choose one) :  MEANWELL SKMW06F-15 (support -12V 400mA) or MEANWELL SKMW30F-15 (support -12V 1500mA)
 Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing or 42x25x25mm Standard heat sinks
 15V DC Adapter (choose one): MEANWELL GSM36B15-P1J (15V 36W) for 12V 400mA or MEANWELL GST60A15-P1J (15V 60W) for -12V 1500mA
