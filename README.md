@@ -1,7 +1,7 @@
 # tiny_rack
 tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack modular synthesizers. 
 
-![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/c55b5a3d3618ce2e561cd8bb03879904c883bc02/images/main.jpg)
+![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/main.jpg)
 
 ## Main features:
 
@@ -22,6 +22,8 @@ tiny_rack is a eurorack rack project for DIYer with just starting DIY eurorack m
 | tiny-cube-26hp      | 78mm               | 100mm             | 26hp, ultra deep                    |
 | tiny-workbench-34hp | 50mm               | 50mm              | 34hp, for modular testing           |
 | tiny-rack-2x44hp    | 55mm               | 65mm              | 2x44hp, more inner space for DIY    |
+
+![more_size](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/more-size.jpg)
 
 ## Instructions
 The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modules. Most of the solutions required specialized rails. needed to control the precision otherwise the modules would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
@@ -86,6 +88,13 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 ## Mechanical assembly
 
+![use_regulated_heat_sink](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/pcb-a.jpg)
+
+![use_custom_heat_sink](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/pcb-b.jpg)
+
+![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/mount-a.jpg)
+
+![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/f1acfb4a67a3ef867dcafc481e8d05a54906aa7b/images/mount-b.jpg)
 
 ## Test Report
 Test equipment:
@@ -95,6 +104,8 @@ Test equipment:
 * Software for automated testing
 Test methods:
 Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all combinations of loads and output a CSV file.
+
+![test_workflow](https://github.com/KevinKeWang/tiny_rack/blob/f1acfb4a67a3ef867dcafc481e8d05a54906aa7b/images/test_workflow.jpg)
 
 Test result (use SKMW06F-15):
 | Output      | Maximum load          | Maximum ripple    |
