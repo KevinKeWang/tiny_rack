@@ -127,6 +127,14 @@ Test result (use SKMW06F-15):
 | +5V         | 6500mA                | untested          |
 | +3.3V       | 500mA                 | untested          |
 
+Test result (use SKMW30F-15):
+| Output      | Maximum load          | Maximum ripple    |
+|-------------|-----------------------|-------------------|
+| +12V        | 1500mA                | 80mV              |
+| -12V        | 1500mA                | 80mV              |
+| +5V         | 6500mA                | untested          |
+| +3.3V       | 500mA                 | untested          |
+
 *Ripple measurements for all specific load cases can be seen here:*
 [test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/fdd56a02470fdd53be4d23742275717104c09da4/test%20report "Test Report")
 
