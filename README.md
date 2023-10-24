@@ -1,5 +1,5 @@
 # tiny_rack
-tiny_rack is a eurorack case project for DIYer with just starting DIY eurorack modular synthesizers. 
+tiny_rack is a eurorack case (with power board) project for DIYer with just starting DIY eurorack modular synthesizers.
 
 ![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/main.jpg)
 
