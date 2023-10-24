@@ -37,7 +37,7 @@ For the power supply. I tested several DC-DC isolation regulators and chose the 
 The power supply uses the original 7812/7912 LDO scheme. which is simple and reliable. and I've tested the ripple on the +/-12V rails to under 100mV under all load conditions. You can check the test report. it's not a perfect solution at the moment. but you can see exactly what kind of standards it can achieve.
 Regarding the heatsink. I designed two options. One is a standard component with soldering and the other is a customized heatsink with a hole spacing of 32mm x 32mm. with customized heat sink the height of power board can be much lower. 
 
-**In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.Possibly improved later.**
+**In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.**
 
 ## Schematics and PCB
 [All the PCB design files here](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
