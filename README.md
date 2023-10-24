@@ -117,6 +117,8 @@ Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all c
 
 ![test_workflow](https://github.com/KevinKeWang/tiny_rack/blob/f1acfb4a67a3ef867dcafc481e8d05a54906aa7b/images/test_workflow.jpg)
 
+![test_software](https://github.com/KevinKeWang/tiny_rack/blob/c22f3da9effc3e2adebe6ed4885ff34d03cd6bc7/images/eurorack-power-test.png)
+
 Test result (use SKMW06F-15):
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
