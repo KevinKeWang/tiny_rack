@@ -25,7 +25,9 @@ tiny_rack is a eurorack case (with power board) project for DIYer who just start
 | tiny-workbench-34hp | 50mm               | 50mm              | 34hp, for modular testing           |
 | tiny-rack-2x44hp    | 55mm               | 65mm              | 2x44hp, more inner space for DIY    |
 
-![more_size](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/more-size.jpg)
+![more_size](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/more-size.jpg)
+
+![workbench](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/workbench.jpg)
 
 ## Instructions
 The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modules. Most of the solutions required specialized rails. needed to control the precision otherwise the modules would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
@@ -100,9 +102,13 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 **mounting guide:**
 
-![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/c01cd60983afbae05b4fed6ef6f4171f4c9550ec/images/mount-a.jpg)
+![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/mount-a.jpg)
 
-![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/f1acfb4a67a3ef867dcafc481e8d05a54906aa7b/images/mount-b.jpg)
+![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/mount-b.jpg)
+
+**short circuit protection:**
+
+![mount_pic_3](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/short-circuit-protection.jpg)
 
 ## Test Report
 Test equipment:
