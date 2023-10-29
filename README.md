@@ -161,6 +161,7 @@ Test result (use SKMW30F-15 and GST60A15-P1J):
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
 
 ## Links
+Thingiverse: https://www.thingiverse.com/thing:6279851
 
 Youtube: https://www.youtube.com/@KEVIN_KE
 
