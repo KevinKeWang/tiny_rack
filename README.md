@@ -3,6 +3,8 @@ tiny_rack is a eurorack case (with power board) project for DIYer who just start
 
 ![tiny_rack](https://github.com/KevinKeWang/tiny_rack/blob/1ec8adb37ddefb6aa67bc693148d2fd5fae44477/images/with-opz-s.jpg)
 
+![powered_by_power_bank](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/images/powered_by_power_bank_out.jpg)
+
 ## Main features:
 
 * One-piece 3D printed, no splicing, no metal rails required.
@@ -11,6 +13,7 @@ tiny_rack is a eurorack case (with power board) project for DIYer who just start
 * Full load tested.
 * The +12V and -12V output ripple is less than 100mV under all load conditions.
 * Exposed M3 screw terminals for direct connection to the test power supply. Clamps can be directly.
+* Fully test powered by **[Mi 50w Power Bank 20000mAh](https://www.mi.com/global/product/mi-50w-power-bank-20000/)** (using a 15V USB decoy cable) 
 
 **While this project puts the case and circuit together, they are both independently. This +/-12V 1500mA power supply is usually enough even in a 9U84hp case.**
 
@@ -92,9 +95,6 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 **It is recommended to use the adapter model I have tested.**
 
-**Also I have tested the Mi 50w Power Bank 20000mAh, which is fully compatible with the power supply (using a 15V USB decoy cable)**
-https://www.mi.com/global/product/mi-50w-power-bank-20000/
-
 ## Mechanical assembly
 
 **use regular heat sink:**
@@ -130,7 +130,8 @@ Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all c
 
 ![test_software](https://github.com/KevinKeWang/tiny_rack/blob/1c423f3f79a77b4dd25c15d54115a057bbe4e6dc/test%20report/EurorackPowerTesterV1.png)
 
-Test result (use SKMW06F-15 and GSM36B15-P1J):
+Test result (use SKMW06F-15 and GSM36B15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/test%20report/TestReport_SKMW06F-15_and_GSM36B15-P1J.csv):
+
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
 | +12V        | 1500mA                | 60mV              |
@@ -138,24 +139,23 @@ Test result (use SKMW06F-15 and GSM36B15-P1J):
 | +5V         | -                     | untested          |
 | +3.3V       | -                     | untested          |
 
-Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**):
+Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/test%20report/TestReport_SKMW06F-15_and_Mi_50w_Power_Bank_20000mAh.csv):
+
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
-| +12V        | 1500mA                | ?                 |
-| -12V        | 400mA                 | ?                 |
+| +12V        | 1500mA                | 80mV              |
+| -12V        | 400mA                 | 50mV              |
 | +5V         | -                     | untested          |
 | +3.3V       | -                     | untested          |
 
 Test result (use SKMW30F-15 and GST60A15-P1J):
+
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
 | +12V        | 1500mA                | ?                 |
 | -12V        | 1500mA                | ?                 |
 | +5V         | 6500mA                | untested          |
 | +3.3V       | 500mA                 | untested          |
-
-*Ripple measurements for all specific load cases can be seen here:*
-[test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/2a0a4b0b772f0261202cd67bfc799d0c751ba818/test%20report "Test Report")
 
 ## License
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
