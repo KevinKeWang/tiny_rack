@@ -155,7 +155,7 @@ Test result (use SKMW30F-15 and GST60A15-P1J):
 | +3.3V       | 500mA                 | untested          |
 
 *Ripple measurements for all specific load cases can be seen here:*
-[test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/fdd56a02470fdd53be4d23742275717104c09da4/test%20report "Test Report")
+[test report csv file](https://github.com/KevinKeWang/tiny_rack/tree/2a0a4b0b772f0261202cd67bfc799d0c751ba818/test%20report "Test Report")
 
 ## License
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
