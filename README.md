@@ -90,6 +90,10 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 
 15V DC Adapter (choose one): MEANWELL GSM36B15-P1J (15V 36W) for 12V 400mA or MEANWELL GST60A15-P1J (15V 60W) for -12V 1500mA
 
+**It is recommended to use the adapter model I have tested.**
+
+**Also I have tested the Mi 50w Power Bank 20000mAh, which is fully compatible with the power supply (using a 15V USB decoy cable)**
+
 ## Mechanical assembly
 
 **use regular heat sink:**
@@ -121,10 +125,6 @@ Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all c
 
 **There are some power supply solutions that can generate large ripple or even fail in specific load scenarios, such as when the gap between positive and negative rail loads is too large. That's why my tests cover all load scenarios.**
 
-**It is recommended to use the adapter model I have tested.**
-
-**Also I have tested the Mi 50w Power Bank 20000mAh, which is fully compatible with the power supply (using a 15V USB decoy cable)**
-
 ![test_workflow](https://github.com/KevinKeWang/tiny_rack/blob/f1acfb4a67a3ef867dcafc481e8d05a54906aa7b/images/test_workflow.jpg)
 
 ![test_software](https://github.com/KevinKeWang/tiny_rack/blob/1c423f3f79a77b4dd25c15d54115a057bbe4e6dc/test%20report/EurorackPowerTesterV1.png)
@@ -137,7 +137,7 @@ Test result (use SKMW06F-15 and GSM36B15-P1J):
 | +5V         | -                     | untested          |
 | +3.3V       | -                     | untested          |
 
-Test result (use SKMW06F-15 and Mi 50w Power Bank 20000mAh):
+Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**):
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
 | +12V        | 1500mA                | ?                 |
