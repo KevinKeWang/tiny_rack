@@ -93,6 +93,7 @@ Heat sink (choose one): 40x40x6mm Customized heat sink with 32x32mm hole spacing
 **It is recommended to use the adapter model I have tested.**
 
 **Also I have tested the Mi 50w Power Bank 20000mAh, which is fully compatible with the power supply (using a 15V USB decoy cable)**
+https://www.mi.com/global/product/mi-50w-power-bank-20000/
 
 ## Mechanical assembly
 
