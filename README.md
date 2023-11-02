@@ -50,7 +50,7 @@ Regarding the heatsink. I designed two options. One is a standard component with
 * I have provided BambuStudio project files in the "bumbu p1s" folder that can be used as a reference for the support structure. gcode files can be used directly for printing.
 * PLA Basic material is recommended, easiest to print. 
 
-![3d-print](https://github.com/KevinKeWang/tiny_rack/blob/83f34cca8630c15cfcd496eb847a9128fbb19289/images/3d-print.png)
+![3d-print](https://github.com/KevinKeWang/tiny_rack/blob/825108e056bc47a1c86c06eaf0f1a0fd0326eaad/images/3d-print-en.png)
 
 ## Schematics and PCB
 [All the PCB design files here](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
