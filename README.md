@@ -41,6 +41,12 @@ Regarding the heatsink. I designed two options. One is a standard component with
 
 **In the current scheme, the use of +5V is not recommended and will increase the output ripple on all channels.**
 
+## 3D Print Instructions
+* Be sure to place the model vertically, otherwise the dimensions will be off after printing, resulting in the modular not being installed.
+* Do not add supports in the screw holes, extremely difficult to remove.
+* I have provided BambuStudio project files in the "bumbu p1s" folder that can be used as a reference for the support structure. gcode files can be used directly for printing.
+* PLA Basic material is recommended, easiest to print. 
+
 ## Schematics and PCB
 [All the PCB design files here](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
 ![pcb](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
