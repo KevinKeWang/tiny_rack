@@ -49,6 +49,7 @@ Regarding the heatsink. I designed two options. One is a standard component with
 * Do not add supports in the screw holes, extremely difficult to remove.
 * I have provided BambuStudio project files in the "bumbu p1s" folder that can be used as a reference for the support structure. gcode files can be used directly for printing.
 * PLA Basic material is recommended, easiest to print. 
+* Tree support often fails to print. Recommend using standard support.
 
 ![3d-print](https://github.com/KevinKeWang/tiny_rack/blob/825108e056bc47a1c86c06eaf0f1a0fd0326eaad/images/3d-print-en.png)
 
