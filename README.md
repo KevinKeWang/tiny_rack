@@ -158,12 +158,12 @@ Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**) [full test file]
 | +5V         | -                     | untested          |
 | +3.3V       | -                     | untested          |
 
-Test result (use SKMW30F-15 and GST60A15-P1J):
+Test result (use SKMW30F-15 and GST60A15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/test%20report/TestReport_SKMW06F-15_and_Mi_50w_Power_Bank_20000mAh.csv):
 
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
-| +12V        | 1500mA                | ?                 |
-| -12V        | 1500mA                | ?                 |
+| +12V        | 1500mA                | 183mV             |
+| -12V        | 1500mA                | 163mV             |
 | +5V         | 6500mA                | untested          |
 | +3.3V       | 500mA                 | untested          |
 
