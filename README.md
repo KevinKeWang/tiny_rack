@@ -142,7 +142,7 @@ Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all c
 
 ![test_software](https://github.com/KevinKeWang/tiny_rack/blob/1c423f3f79a77b4dd25c15d54115a057bbe4e6dc/test%20report/EurorackPowerTesterV1.png)
 
-Test result (use SKMW06F-15 and GSM36B15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/test%20report/TestReport_SKMW06F-15_and_GSM36B15-P1J.csv):
+Test result (use SKMW06F-15 and GSM36B15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/d5e079e0b45fc167bf2f1ec85645d99e7412df31/test%20report/TestReport_SKMW30F-15_and_GST60A15-P1J.csv):
 
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
