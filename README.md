@@ -142,7 +142,7 @@ Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all c
 
 ![test_software](https://github.com/KevinKeWang/tiny_rack/blob/1c423f3f79a77b4dd25c15d54115a057bbe4e6dc/test%20report/EurorackPowerTesterV1.png)
 
-Test result (use SKMW06F-15 and GSM36B15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/d5e079e0b45fc167bf2f1ec85645d99e7412df31/test%20report/TestReport_SKMW30F-15_and_GST60A15-P1J.csv):
+Test result (use SKMW06F-15 and GSM36B15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/194db1126690bd216e786f4cb923c7edc125c2ce/test%20report/TestReport_SKMW06F-15_and_GSM36B15-P1J.csv):
 
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
@@ -151,7 +151,7 @@ Test result (use SKMW06F-15 and GSM36B15-P1J) [full test file](https://github.co
 | +5V         | -                     | untested          |
 | +3.3V       | -                     | untested          |
 
-Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/test%20report/TestReport_SKMW06F-15_and_Mi_50w_Power_Bank_20000mAh.csv):
+Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/194db1126690bd216e786f4cb923c7edc125c2ce/test%20report/TestReport_SKMW06F-15_and_Mi_50w_Power_Bank_20000mAh.csv):
 
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
@@ -160,7 +160,7 @@ Test result (use SKMW06F-15 and **Mi 50w Power Bank 20000mAh**) [full test file]
 | +5V         | -                     | untested          |
 | +3.3V       | -                     | untested          |
 
-Test result (use SKMW30F-15 and GST60A15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/bff1faffcf42d668e23ff30304d923c977059271/test%20report/TestReport_SKMW06F-15_and_Mi_50w_Power_Bank_20000mAh.csv):
+Test result (use SKMW30F-15 and GST60A15-P1J) [full test file](https://github.com/KevinKeWang/tiny_rack/blob/194db1126690bd216e786f4cb923c7edc125c2ce/test%20report/TestReport_SKMW30F-15_and_GST60A15-P1J.csv):
 
 | Output      | Maximum load          | Maximum ripple    |
 |-------------|-----------------------|-------------------|
