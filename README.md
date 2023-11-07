@@ -47,13 +47,12 @@ Regarding the heatsink. I designed two options. One is a standard component with
 ## 3D Print Instructions
 * Be sure to place the model vertically, otherwise the dimensions will be off after printing, resulting in the modular not being installed.
 * Do not add supports in the screw holes, extremely difficult to remove.
-* I have provided BambuStudio project files in the "bumbu p1s" folder that can be used as a reference for the support structure. gcode files can be used directly for printing.
+* I have provided BambuStudio project files in the "bumbu p1s" / "bumbu x1c" folder that can be used as a reference for the support structure. gcode files can be used directly for printing.
 * PLA Basic material is recommended, easiest to print. 
-* Tree support often fails to print. Recommend using standard support.
 
-![3d-print](https://github.com/KevinKeWang/tiny_rack/blob/825108e056bc47a1c86c06eaf0f1a0fd0326eaad/images/3d-print-en.png)
-
-![3d-print-cf](https://github.com/KevinKeWang/tiny_rack/blob/bf41d32c5a9d9f54a2a456c847441613cdaf4e8d/images/3d-print-cf.png)
+![3D Printing Parameters 1](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-1.png)
+![3D Printing Parameters 2](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-2.png)
+![3D Printing Parameters 3](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-4.png)
 
 ## Schematics and PCB
 [All the PCB design files here](https://github.com/KevinKeWang/tiny_rack/tree/93aa4f3181c854528b71964095c1c5eb0407a9e2/power%20pcb "PCB Files")
