@@ -48,7 +48,7 @@ Regarding the heatsink. I designed two options. One is a standard component with
 * Be sure to place the model vertically, otherwise the dimensions will be off after printing, resulting in the modular not being installed.
 * Do not add supports in the screw holes, extremely difficult to remove.
 * I have provided BambuStudio project files in the "bumbu p1s" / "bumbu x1c" folder that can be used as a reference for the support structure. gcode files can be used directly for printing.
-* PLA Basic material is recommended, easiest to print. 
+* It is also recommended to use 0.6mm nozzles. 0.4mm nozzles are often clogged.
 
 ![3D Printing Parameters 1](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-1.png)
 ![3D Printing Parameters 2](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-2.png)
