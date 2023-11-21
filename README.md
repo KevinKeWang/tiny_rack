@@ -176,6 +176,4 @@ Official website:  https://biti.tech/
 
 Thingiverse: https://www.thingiverse.com/thing:6279851
 
-Youtube: https://www.youtube.com/@KEVIN_KE
-
-Bilibili: https://space.bilibili.com/319608785
+Purchase here: https://reverb.com/shop/kevins-gear-bazaar-1162
