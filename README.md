@@ -172,8 +172,8 @@ Test result (use SKMW30F-15 and GST60A15-P1J) [full test file](https://github.co
 This 3D model and PCB layout is made available under a cc-by-sa-3.0 license.
 
 ## Links
-Official website:  https://biti.tech/
+Official website:  https://bitiworkshop.com/
 
 Thingiverse: https://www.thingiverse.com/thing:6279851
 
-Purchase here: https://reverb.com/shop/kevins-gear-bazaar-1162
+Purchase here: https://store.bitiworkshop.com/
