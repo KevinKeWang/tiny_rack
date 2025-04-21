@@ -1,7 +1,7 @@
 # tiny_rack
 tiny_rack is a eurorack case (with power board) project for DIYer who just started DIY eurorack modular synthesizers.
 
-![tiny_rack_v2](https://github.com/KevinKeWang/tiny_rack/blob/1ec8adb37ddefb6aa67bc693148d2fd5fae44477/images/with-opz-s.jpg)
+![tiny_rack_v2](https://github.com/KevinKeWang/tiny_rack/blob/ceb31248a375a2b65262438f0f4112a7bb6b055b/v2/images/7RC00930_2048.jpg)
 
 ## Main features:
 
