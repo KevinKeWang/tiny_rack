@@ -1,5 +1,7 @@
 # tiny_rack
-tiny_rack is a eurorack case (with power board) project for DIYer who just started DIY eurorack modular synthesizers.
+This is a V2 version of tiny_rack. With the release of the BambuLab H2D it's easy to print larger models. So I updated the eurorack case model for the 6U52HP, and the power board circuit for a more convenient and easy to use design. This version is closer to the aluminum eurorack enclosure I sell. they are exactly the same in power and functionality. Now you can print your own 6U52hp eurorack case in any color you like!
+
+If you want to see the old version of tiny_rack, go here: https://github.com/KevinKeWang/tiny_rack/tree/V1
 
 ![tiny_rack_v2](https://github.com/KevinKeWang/tiny_rack/blob/ceb31248a375a2b65262438f0f4112a7bb6b055b/v2/images/7RC00930_2048.jpg)
 
@@ -12,10 +14,6 @@ tiny_rack is a eurorack case (with power board) project for DIYer who just start
 * Fully test powered by **[Mi 50w Power Bank 20000mAh](https://www.mi.com/global/product/mi-50w-power-bank-20000/)** (using a 15V USB decoy cable) 
 
 ## Instructions
-This is a V2 version of tiny_rack. With the release of the BambuLab H2D it's easy to print larger models. So I updated the eurorack case model for the 6U52HP, and the power board circuit for a more convenient and easy to use design. This version is closer to the aluminum eurorack enclosure I sell. they are exactly the same in power and functionality. Now you can print your own 6U52hp eurorack case in any color you like! 
-
-**If you want to see the old version of tiny_rack, go here: https://github.com/KevinKeWang/tiny_rack/tree/V1**
-
 The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modulars. Most of the solutions required specialized rails. needed to control the precision otherwise the modulars would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
 
 This series contains the complete series of racks. and a power board with a decent quality of output. The racks is built entirely using 3D printing. one piece (including the rails) and simple to print. the screw holes are not threaded and need to be force screwed in using M3 screws to create the threads. this sacrifices the strength of the racks somewhat. but again makes the build very simple and ready to use straight after printing.
