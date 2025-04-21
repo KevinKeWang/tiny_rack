@@ -81,6 +81,17 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 
 ![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/437aa6efb939d3c984fa495263f4b92bcc760de6/v2/images/7RC00928_2048.jpg)
 
+## Software
+
+3D Modeling Software: plasticity
+
+https://www.plasticity.xyz/
+
+PCB Software: eagle
+
+https://www.autodesk.com/products/eagle/overview
+
+
 ## Test Report
 Test equipment:
 * Gwinstek GPP-3323 DC Power Supply (as an electronic load) **for +12V -12V**
