@@ -29,15 +29,11 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 * I have provided BambuStudio project files that can be used as a reference for the support structure. gcode files can be used directly for printing.
 * Because different brands or different diameters of nozzles may produce different results when printing small circular holes. I made a screw hole diameter test model here. It is recommended to use this model to test before printing the modular case, and select the appropriate screw hole diameter to modify the plasticity source file. When I use the BambuLab H2D printer with a 0.4mm nozzle, a 2.7mm screw hole is the best size. If you use the same printer as me, you can directly use my gcode file for printing.
 
-![3D Printing Parameters 1](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-1.png)
-![3D Printing Parameters 2](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-2.png)
-![3D Printing Parameters 3](https://github.com/KevinKeWang/tiny_rack/blob/e36263a818f07229017a311b007da57f763257ab/images/3d-print-4.png)
-
 ## Schematics and PCB
 
 **PCB front side**
 
-![pcb-front-side](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
+![pcb-front-side](https://github.com/KevinKeWang/tiny_rack/blob/f592fab672c29ee5ea46a4f2597cd434be2565ab/v2/images/7RC00922.JPG)
 
 **PCB back side**
 
