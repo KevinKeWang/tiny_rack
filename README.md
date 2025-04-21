@@ -31,21 +31,17 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 
 ## Schematics and PCB
 
-**PCB front side**
+**Core PCB front side**
 
-![pcb-front-side](https://github.com/KevinKeWang/tiny_rack/blob/f592fab672c29ee5ea46a4f2597cd434be2565ab/v2/images/7RC00922.JPG)
+![pcb-front-side](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00922_2048.jpg)
 
-**PCB back side**
+**Core PCB back side**
 
-![pcb-back-side](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
+![pcb-back-side](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00923_2048.jpg)
 
 **How to connect two PCBs**
 
-![pcb-connect](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
-
-**There is no circuit on the back of the expansion board, so it can be directly attached to any surface with tape.**
-
-![pcb-exp-back](https://github.com/KevinKeWang/tiny_rack/blob/a701374cc4902f302682367b0e058243ed0a212c/power%20pcb/tiny-psu-main/smt.jpg)
+![pcb-connect](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00925_2048.jpg)
 
 ## Bill of materials (Core PCB)
 | Designator                   | Qty | Value              | Footprint     | Description                    | Ref. Mouser                          | Ref. LCSC | References                            |
@@ -79,9 +75,11 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 
 ## Mechanical assembly
 
-![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/mount-a.jpg)
+**There is no circuit on the back of the expansion board, so it can be directly attached to any surface with tape.**
 
-![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/007ceb8c4b0aa8a4d65c0e45a3b01d15e0115c3a/images/mount-b.jpg)
+![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00929_2048.jpg)
+
+![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00928_2048.jpg)
 
 ## Test Report
 Test equipment:
