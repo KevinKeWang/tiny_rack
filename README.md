@@ -16,13 +16,13 @@ This is a V2 version of tiny_rack. With the release of the BambuLab H2D it's eas
 
 **If you want to see the old version of tiny_rack, go here: https://github.com/KevinKeWang/tiny_rack/tree/V1**
 
-The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modules. Most of the solutions required specialized rails. needed to control the precision otherwise the modules would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
+The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modulars. Most of the solutions required specialized rails. needed to control the precision otherwise the modulars would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
 
 This series contains the complete series of racks. and a power board with a decent quality of output. The racks is built entirely using 3D printing. one piece (including the rails) and simple to print. the screw holes are not threaded and need to be force screwed in using M3 screws to create the threads. this sacrifices the strength of the racks somewhat. but again makes the build very simple and ready to use straight after printing.
 
 The power supply uses the original 7812/7912 LDO scheme. which is simple and reliable. and I've tested the ripple on the +/-12V rails to under 100mV under all load conditions. You can check the test report. it's not a perfect solution at the moment. but you can see exactly what kind of standards it can achieve.
 
-**I no longer provide 5V in the power supply since most modules that use 5V can be switched to convert 5V from 12V**
+**I no longer provide 5V in the power supply since most modulars that use 5V can be switched to convert 5V from 12V**
 
 ## 3D Print Instructions
 * Be sure to place the model vertically, otherwise the dimensions will be off after printing, resulting in the modular not being installed.
@@ -33,15 +33,15 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 
 **Core PCB front side**
 
-![pcb-front-side](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00922_2048.jpg)
+![pcb-front-side](https://github.com/KevinKeWang/tiny_rack/blob/437aa6efb939d3c984fa495263f4b92bcc760de6/v2/images/7RC00922_2048.jpg)
 
 **Core PCB back side**
 
-![pcb-back-side](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00923_2048.jpg)
+![pcb-back-side](https://github.com/KevinKeWang/tiny_rack/blob/437aa6efb939d3c984fa495263f4b92bcc760de6/v2/images/7RC00923_2048.jpg)
 
 **How to connect two PCBs**
 
-![pcb-connect](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00925_2048.jpg)
+![pcb-connect](https://github.com/KevinKeWang/tiny_rack/blob/437aa6efb939d3c984fa495263f4b92bcc760de6/v2/images/7RC00925_2048.jpg)
 
 ## Bill of materials (Core PCB)
 | Designator                   | Qty | Value              | Footprint     | Description                    | Ref. Mouser                          | Ref. LCSC | References                            |
@@ -77,9 +77,9 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 
 **There is no circuit on the back of the expansion board, so it can be directly attached to any surface with tape.**
 
-![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00929_2048.jpg)
+![mount_pic_1](https://github.com/KevinKeWang/tiny_rack/blob/437aa6efb939d3c984fa495263f4b92bcc760de6/v2/images/7RC00929_2048.jpg)
 
-![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/e699eb2b77c8c3cfcbbc178a90fcfb6af0bed381/v2/images/7RC00928_2048.jpg)
+![mount_pic_2](https://github.com/KevinKeWang/tiny_rack/blob/437aa6efb939d3c984fa495263f4b92bcc760de6/v2/images/7RC00928_2048.jpg)
 
 ## Test Report
 Test equipment:
