@@ -1,7 +1,7 @@
 # tiny_rack
 This is a V2 version of tiny_rack. With the release of the BambuLab H2D it's easy to print larger models. So I updated the eurorack case model for the 6U52HP, and the power board circuit for a more convenient and easy to use design. This version is closer to the aluminum eurorack case I sell. they are exactly the same in power and functionality. Now you can print your own 6U52hp eurorack case in any color you like!
 
-If you want to see the old version of tiny_rack, go here: https://github.com/KevinKeWang/tiny_rack/tree/V1
+If you want to see the old version of tiny_rack, go here: https://github.com/KevinKeWang/tiny_rack/tree/V1 (The first version is smaller and fits most 3D printers. If your printer cannot build such a large part, please browse the V1 version.)
 
 ![tiny_rack_v2](https://github.com/KevinKeWang/tiny_rack/blob/ceb31248a375a2b65262438f0f4112a7bb6b055b/v2/images/7RC00930_2048.jpg)
 
