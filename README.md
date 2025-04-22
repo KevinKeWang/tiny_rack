@@ -29,7 +29,7 @@ The power supply uses the original 7812/7912 LDO scheme. which is simple and rel
 ## 3D Print Instructions
 * Be sure to place the model vertically, otherwise the dimensions will be off after printing, resulting in the modular not being installed.
 * I have provided BambuStudio project files that can be used as a reference for the support structure. gcode files can be used directly for printing.
-* Because different brands or different diameters of nozzles may produce different results when printing small circular holes. I made a screw hole diameter test model here. It is recommended to use this model to test before printing the modular case, and select the appropriate screw hole diameter to modify the plasticity source file. When I use the BambuLab H2D printer with a 0.4mm nozzle, a 2.7mm screw hole is the best size. If you use the same printer as me, you can directly use my gcode file for printing.
+* Because different brands or different diameters of nozzles may produce different results when printing small circular holes. I made a screw hole diameter test model here. It is recommended to use this model to test before printing the modular case, and select the appropriate screw hole diameter to modify the plasticity source file. When I use the BambuLab H2D printer with a 0.4mm nozzle, a 2.5mm screw hole is the best size. If you use the same printer as me, you can directly use my gcode file for printing.
 
 ## Schematics and PCB
 
