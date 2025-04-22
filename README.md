@@ -110,7 +110,7 @@ Each channel is cycled from 0mA to maximum load, 50mA in one step, to test all c
 ![test_software](https://github.com/KevinKeWang/tiny_rack/blob/1c423f3f79a77b4dd25c15d54115a057bbe4e6dc/test%20report/EurorackPowerTesterV1.png)
 
 ## License
-**The tiny_rack v2 project 3D model and PCB layout is made available under a CC-BY-NC-SA-3.0 license.**
+**The tiny_rack v2 project is made available under a CC-BY-NC-SA-3.0 license.**
 
 If you want to make a few boxes for your own use, go ahead and make them. If you're a synth studio and want to use them for product testing/demonstration etc, that's also welcome as long as it doesn't involve selling these case directly. **Please do not make and sell these case in bulk.**
 
