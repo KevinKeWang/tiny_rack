@@ -19,7 +19,7 @@ The first version is smaller and fits most 3D printers. If your printer cannot b
 * Fully test powered by ZITAY D-Tap to DC(5.5 * 2.1 mm) Cable
 
 ## Portable scene using V-mount battery power supply
-| ![portable_1](https://github.com/KevinKeWang/tiny_rack/blob/a0489145a01ba8e6de7ef0a08e96c6fe280a1ec4/v2/images/7RC00985_2048.jpg){width=200px} | ![portable_2](https://github.com/KevinKeWang/tiny_rack/blob/e5d2f7ec6d8bf1fd498b7f3de660e41fde8bc867/v2/images/7RC00932_2048.jpg){width=200px} |
+| ![portable_1](https://github.com/KevinKeWang/tiny_rack/blob/3fe0b6b7977cc191978b56e4886df4b14d426433/v2/images/7RC00985_2048.jpg) | ![portable_2](https://github.com/KevinKeWang/tiny_rack/blob/3fe0b6b7977cc191978b56e4886df4b14d426433/v2/images/7RC00986_2048.jpg) |
 |------------------------------------------------|------------------------------------------------|
 
 ## Instructions
