@@ -19,8 +19,8 @@ The first version is smaller and fits most 3D printers. If your printer cannot b
 * Fully test powered by ZITAY D-Tap to DC(5.5 * 2.1 mm) Cable
 
 ## Portable scene using V-mount battery power supply
-|-----|-----|
-|![portable_1](https://github.com/KevinKeWang/tiny_rack/blob/a0489145a01ba8e6de7ef0a08e96c6fe280a1ec4/v2/images/7RC00985_2048.jpg)|![portable_2](https://github.com/KevinKeWang/tiny_rack/blob/a0489145a01ba8e6de7ef0a08e96c6fe280a1ec4/v2/images/7RC00986_2048.jpg)|
+| ![portable_1](https://github.com/KevinKeWang/tiny_rack/blob/a0489145a01ba8e6de7ef0a08e96c6fe280a1ec4/v2/images/7RC00985_2048.jpg){width=200px} | ![portable_2](https://github.com/KevinKeWang/tiny_rack/blob/e5d2f7ec6d8bf1fd498b7f3de660e41fde8bc867/v2/images/7RC00932_2048.jpg){width=200px} |
+|------------------------------------------------|------------------------------------------------|
 
 ## Instructions
 The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modulars. Most of the solutions required specialized rails. needed to control the precision otherwise the modulars would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
