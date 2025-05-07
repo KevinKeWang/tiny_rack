@@ -19,10 +19,10 @@ The first version is smaller and fits most 3D printers. If your printer cannot b
 * Fully test powered by ZITAY D-Tap to DC(5.5 * 2.1 mm) Cable
 
 ## Portable scene using V-mount battery power supply
+**Please note that the dtap output voltage should not be lower than 14.2V**
 | ![portable_1](https://github.com/KevinKeWang/tiny_rack/blob/3fe0b6b7977cc191978b56e4886df4b14d426433/v2/images/7RC00985_2048.jpg) | ![portable_2](https://github.com/KevinKeWang/tiny_rack/blob/3fe0b6b7977cc191978b56e4886df4b14d426433/v2/images/7RC00986_2048.jpg) |
 |------------------------------------------------|------------------------------------------------|
 
-**Please note that the dtap output voltage should not be lower than 14.2V**
 
 ## Instructions
 The main reason I started this project was the difficulty in finding a simple power bank solution when I was just starting out with DIY modulars. Most of the solutions required specialized rails. needed to control the precision otherwise the modulars would be difficult to install. there were many power board solutions but I couldn't be sure about the quality of their output. Some switching power supplies cause digital modulars to fail to boot.
